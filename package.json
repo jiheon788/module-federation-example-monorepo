@@ -1,0 +1,4 @@
+{
+  "name": "module-federation-example-monorepo",
+  "packageManager": "yarn@4.1.0"
+}
