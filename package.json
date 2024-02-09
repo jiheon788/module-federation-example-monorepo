@@ -6,10 +6,10 @@
   ],
   "scripts": {
     "dev:remote": "yarn workspace @monorepo/remote dev",
-    "dev:host": "yarn workspace @monorepo/host dev",
     "build:remote": "yarn workspace @monorepo/remote build",
-    "build:host": "yarn workspace @monorepo/host build",
-    "deploy:remote": "yarn workspace @monorepo/remote deploy"
+    "deploy:remote": "yarn workspace @monorepo/remote deploy",
+    "dev:host": "yarn workspace @monorepo/host dev",
+    "build:host": "yarn workspace @monorepo/host build"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
