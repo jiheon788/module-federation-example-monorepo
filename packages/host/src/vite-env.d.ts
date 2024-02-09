@@ -1,3 +1,3 @@
 /// <reference types="vite/client" />
 
-declare module "remoteApp/ReactLogo";
+declare module "remoteApp/RemotedImage";

@@ -1,12 +1,14 @@
 import "./App.css";
 import React from "react";
-const ReactLogo = React.lazy(() => import("remoteApp/ReactLogo"));
+import reactLogo from "./assets/react.svg";
+
+const RemotedImage = React.lazy(() => import("remoteApp/RemotedImage"));
 
 function App() {
   return (
     <>
       <h1>Host app</h1>
-      <ReactLogo />
+      <RemotedImage src={reactLogo} />
     </>
   );
 }

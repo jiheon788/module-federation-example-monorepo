@@ -19,7 +19,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       // Modules to expose
       exposes: {
-        "./ReactLogo": "./src/components/ReactLogo",
+        "./RemotedImage": "./src/components/RemotedImage",
       },
       shared: ["react", "react-dom"],
     }),
