@@ -139,7 +139,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       // Modules to expose
       exposes: {
-        "./RemotedImage": "./src/components/RemotedImage",
+        "./RemotedComponent": "./src/components/RemotedComponent",
       },
       shared: ["react", "react-dom"],
     }),
@@ -175,13 +175,13 @@ export default defineConfig({
 ```typescript
 import reactLogo from "./assets/react.svg";
 
-const RemotedImage = React.lazy(() => import("remoteApp/RemotedImage"));
+const RemotedComponent = React.lazy(() => import("remoteApp/RemotedComponent"));
 
 function App() {
   return (
     <>
       <h1>Host app</h1>
-      <RemotedImage src={reactLogo} />
+      <RemotedComponent imgSrc={reactLogo} />
     </>
   );
 }

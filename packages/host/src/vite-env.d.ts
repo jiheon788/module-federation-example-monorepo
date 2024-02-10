@@ -1,3 +1,3 @@
 /// <reference types="vite/client" />
 
-declare module "remoteApp/RemotedImage";
+declare module "remoteApp/*";
